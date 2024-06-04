@@ -3,3 +3,4 @@ print(1+9)
 '''comillas asi?
 sigo con comillas
 un reenglon mas'''
+print (25+25)
