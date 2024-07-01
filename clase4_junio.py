@@ -1,14 +1,12 @@
-print(1+9)
+'''print(1+9)
 #podes comentar el codigo con # numeral adelante (una sola linea)
-'''comillas asi?
-sigo con comillas
-un reenglon mas'''
+
 print (25+25)
 
 print (30-5)
 print (30.5-5)
 dni = 35944440 #pones el dni y lo llamas con print abajo
-print (dni)
+print (dni) '''
 # metodo de salida print()
 #metodo de entrada input()
 # nombre = input("hola, escribi tu nombre:") sin el numeral es para completar
@@ -71,10 +69,37 @@ print(numeros)                          se reemplaza el 3 por un 8
 # - pop.()
 
 #FUNCION COUNT cuenta el numero de veces que se repite el item
-numeros_varios = [1,2,3,4,5,6,7,8,9,10,10,10,10,10,11,12,13,14,59]
-print(numeros_varios.count(10))
+# numeros_varios = [1,2,3,4,5,6,7,8,9,10,10,10,10,10,11,12,13,14,59]
+# print(numeros_varios.count(10))
 
 #____________________TUPLAS hace que no se pueda modificar (se declaran con parentesis)
 
-mi_tupla = (1,2,3,4,5)
-print(mi_tupla)
+# mi_tupla = (1,2,3,4,5)
+  # print(mi_tupla)
+ 
+ 
+ #Tarea
+lista_1 = ["4567", "UNAHUR"]
+print(lista_1)
+
+lista_2 = ["EDUCACION", "789"]
+print(lista_2)
+
+lista_3 = [lista_1]
+lista_1.pop()
+print(lista_1)
+
+lista_4 = [lista_2]
+lista_2.pop()
+print(lista_4)
+
+lista_5 = [lista_3, lista_4]
+print(lista_5)
+
+tupla_luciano = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18)
+print(tupla_luciano[-1])
+print(len(tupla_luciano))
+print(tupla_luciano.index(15))
+print(tupla_luciano.index(8))
+print(tupla_luciano.count(12))
+print(tupla_luciano.index[15,16,17,18])
